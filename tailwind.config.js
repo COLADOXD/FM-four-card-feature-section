@@ -15,6 +15,17 @@ module.exports = {
 
         terceary: "hsl(0, 0%, 98%)",
       }),
+      backgroundColor: (theme) => ({
+        ...theme("colors"),
+
+        primary: "hsl(0, 78%, 62%)",
+
+        secondary: "hsl(180, 62%, 55%)",
+
+        terceary: "hsl(34, 97%, 64%)",
+
+        cuarto: "hsl(212, 86%, 64%)",
+      }),
     },
     plugins: [],
   },
